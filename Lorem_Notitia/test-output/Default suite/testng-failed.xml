@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test verbose="2" name="Default test">
+    <classes>
+      <class name="com.crm.purTest.TC_06_CreatePurOrdWithItemAddProd_Test"/>
+    </classes>
+  </test> <!-- Default test -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.crm.purTest.TC_06_CreatePurOrdWithItemAddProd_Test">
+        <methods>
+          <include name="login"/>
+          <include name="ConfigAC"/>
+          <include name="ConfigAS"/>
+          <include name="configAT"/>
+          <include name="createPurOrderWithItemAddProd"/>
+          <include name="ConfigBC"/>
+          <include name="ConfigDB"/>
+          <include name="tearDown"/>
+          <include name="configBT"/>
+        </methods>
+      </class> <!-- com.crm.purTest.TC_06_CreatePurOrdWithItemAddProd_Test -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
