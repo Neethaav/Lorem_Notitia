@@ -23,7 +23,7 @@ public class ExcelUtility {
 	public String getExcelData(String sheetName, int rownum, int cellnum) throws Throwable {
 		FileInputStream file = new FileInputStream(IpathConstant.excelFilePath);
 		Workbook workbook = WorkbookFactory.create(file);
-	Sheet sheet = workbook.getSheet(sheetName);
+		Sheet sheet = workbook.getSheet(sheetName);
 		Row row = sheet.getRow(rownum);
 		Cell cell = row.getCell(cellnum);
 		return workbook.getSheet(sheetName).getRow(rownum).getCell(cellnum).toString();

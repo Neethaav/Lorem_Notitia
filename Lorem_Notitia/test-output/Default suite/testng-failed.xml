@@ -11,9 +11,6 @@
       <class name="com.crm.purTest.TC_06_CreatePurOrdWithItemAddProd_Test">
         <methods>
           <include name="login"/>
-          <include name="ConfigAC"/>
-          <include name="ConfigAS"/>
-          <include name="configAT"/>
           <include name="createPurOrderWithItemAddProd"/>
           <include name="ConfigBC"/>
           <include name="ConfigDB"/>

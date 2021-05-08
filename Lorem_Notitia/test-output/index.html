@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\neeth\AppData\Local\Temp\testng-eclipse-1213171602\testng-customsuite.xml</span>
+                    <span>C:\Users\neeth\AppData\Local\Temp\testng-eclipse--1590929114\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -128,16 +128,15 @@
                   <a name="createPurOrderWithItemAddProd">
                   </a> <!-- createPurOrderWithItemAddProd -->
                   <span class="method-name">createPurOrderWithItemAddProd</span>
-                  <div class="stack-trace">org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //input[@value=&apos;Add Product because of the following error:
-SyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The string &apos;//input[@value=&apos;Add Product&apos; is not a valid XPath expression.
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
   (Session info: chrome=90.0.4430.93)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;DESKTOP-BMORMJD&apos;, ip: &apos;192.168.10.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\neeth\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:38635}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 02693ff58eb0716fc958b4275dd45e66
-*** Element info: {Using=xpath, value=//input[@value=&apos;Add Product}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\neeth\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61686}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a7d202768af8c5d06f7bd0d4bdff333d
+*** Element info: {Using=link text, value=Products}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -149,13 +148,13 @@ Session ID: 02693ff58eb0716fc958b4275dd45e66
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 	at com.sun.proxy.$Proxy14.click(Unknown Source)
-	at com.crm.purTest.TC_06_CreatePurOrdWithItemAddProd_Test.createPurOrderWithItemAddProd(TC_06_CreatePurOrdWithItemAddProd_Test.java:69)
+	at com.crm.purTest.TC_06_CreatePurOrdWithItemAddProd_Test.createPurOrderWithItemAddProd(TC_06_CreatePurOrdWithItemAddProd_Test.java:31)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -189,7 +188,7 @@ Session ID: 02693ff58eb0716fc958b4275dd45e66
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\neeth\AppData\Local\Temp\testng-eclipse-1213171602\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\neeth\AppData\Local\Temp\testng-eclipse--1590929114\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -206,9 +205,6 @@ Session ID: 02693ff58eb0716fc958b4275dd45e66
       &lt;class name=&quot;com.crm.purTest.TC_06_CreatePurOrdWithItemAddProd_Test&quot;&gt;
         &lt;methods&gt;
           &lt;include name=&quot;login&quot;/&gt;
-          &lt;include name=&quot;ConfigAC&quot;/&gt;
-          &lt;include name=&quot;ConfigAS&quot;/&gt;
-          &lt;include name=&quot;configAT&quot;/&gt;
           &lt;include name=&quot;createPurOrderWithItemAddProd&quot;/&gt;
           &lt;include name=&quot;ConfigBC&quot;/&gt;
           &lt;include name=&quot;ConfigDB&quot;/&gt;
@@ -262,12 +258,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'createPurOrderWithItemAddProd')
 data.setCell(0, 2, 'com.crm.purTest.TC_06_CreatePurOrdWithItemAddProd_Test')
-data.setCell(0, 3, 17044);
+data.setCell(0, 3, 1503);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 17 seconds</span>
+              <span class="suite-total-time">Total running time: 1 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -300,38 +296,28 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-class before">
                 <span class="method-name">ConfigBC</span>
-                <span class="method-start">16 ms</span>
+                <span class="method-start">24 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-test before">
                 <span class="method-name">configBT</span>
-                <span class="method-start">16 ms</span>
+                <span class="method-start">24 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
                 <span class="method-name">login</span>
-                <span class="method-start">4968 ms</span>
+                <span class="method-start">3902 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">createPurOrderWithItemAddProd</span>
-                <span class="method-start">8844 ms</span>
+                <span class="method-start">5618 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">tearDown</span>
-                <span class="method-start">25892 ms</span>
+                <span class="method-start">7121 ms</span>
               </div> <!-- configuration-method after -->
-              <div class="configuration-class after">
-                <span class="method-name">ConfigAC</span>
-                <span class="method-start">27369 ms</span>
-              </div> <!-- configuration-class after -->
-              <div class="configuration-test after">
-                <span class="method-name">configAT</span>
-                <span class="method-start">28239 ms</span>
-              </div> <!-- configuration-test after -->
-              <div class="configuration-suite after">
-                <span class="method-name">ConfigAS</span>
-                <span class="method-start">28265 ms</span>
-              </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
